@@ -206,7 +206,6 @@ const StyledSpellbookOptions = styled(SpellbookOptionsImpl)`
   flex-direction: column;
 
   a:hover {
-    color: transparent;
     text-decoration: none;
   }
 `;
