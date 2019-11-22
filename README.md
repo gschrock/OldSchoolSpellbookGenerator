@@ -1,6 +1,15 @@
-# OldSchoolCharacterGenerator
+# OldSchoolSpellbookGenerator
 
-Generates an old-school RPG character
+Generates an old-school RPG character spellbook
+
+
+
+
+![Img1](https://i.imgur.com/ASbForU.png)
+![Img2](https://i.imgur.com/IelWPgq.png)
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
