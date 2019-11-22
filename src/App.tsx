@@ -40,7 +40,7 @@ export class AppImpl extends Component<ImplProps> {
   render() {
     const { children, className } = this.props;
     const windowWidth = window.innerWidth;
-    const urlPath = window.location.pathname;
+    // const urlPath = window.location.pathname;
     const isSmallDevice = windowWidth <= 500;
     return (
       <AppContext.Provider
@@ -64,12 +64,10 @@ export class AppImpl extends Component<ImplProps> {
           <div
             className={className}
             style={
-              isSmallDevice && urlPath === "/spellbook"
-                ? { padding: "1.25rem" }
+              isSmallDevice
+                ? { padding: "0rem 2rem" }
                 : {
-                    left: "50%",
-                    top: "50%",
-                    transform: "translate(-50%, -50%)"
+                    padding: "0rem 10rem"
                   }
             }
           >
@@ -82,6 +80,8 @@ export class AppImpl extends Component<ImplProps> {
 }
 
 const Stars = styled.div`
+  display: flex;
+  justify-content: center;
   @keyframes move-twink-back {
     from {
       background-position: 0 0;

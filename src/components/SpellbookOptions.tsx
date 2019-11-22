@@ -185,7 +185,7 @@ const NumberDropdown = styled(DropdownButton)`
 `;
 
 const LinkAndButtonContainer = styled.div`
-padding-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
   display: flex;
   justify-content: center;
 `;
@@ -201,6 +201,7 @@ const GenerateButton = styled(Button)`
 `;
 
 const StyledSpellbookOptions = styled(SpellbookOptionsImpl)`
+  max-width: 500px;
   font-family: "Roboto Mono", monospace;
   justify-content: center;
   display: flex;
