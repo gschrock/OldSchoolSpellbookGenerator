@@ -185,6 +185,7 @@ const NumberDropdown = styled(DropdownButton)`
 `;
 
 const LinkAndButtonContainer = styled.div`
+padding-bottom: 1.25rem;
   display: flex;
   justify-content: center;
 `;
