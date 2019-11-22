@@ -12,9 +12,6 @@ const CreditImpl: React.SFC<ImplProps> = ({ className }) => {
   return (
     <p
       className={className}
-      style={
-        urlPath !== "/spellbook" ? { height: "450px" } : { height: "100px" }
-      }
     >
       {`${
         urlPath !== "/spellbook"
@@ -47,8 +44,9 @@ const CreditImpl: React.SFC<ImplProps> = ({ className }) => {
 };
 
 const StyledCredit = styled(CreditImpl)`
+  height: 100%;
   font-size: 14px;
-  padding-top: 1.25rem;
+  padding: 1.25rem 0rem;
   display: flex;
   flex-direction: column;
   color: white;

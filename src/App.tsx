@@ -199,7 +199,7 @@ const StyledApp = styled(AppImpl)`
   z-index: 4;
   overflow: scroll;
   font-family: "Roboto Mono", monospace;
-  height: -webkit-fill-available;
+  height: 100%;
   position: absolute;
 `;
 
